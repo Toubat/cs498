@@ -17,4 +17,4 @@ def api():
 if __name__ == '__main__':
     with open('seed', 'w') as f:
         f.write('0')
-    app.run(debug = True)
+    app.run()
